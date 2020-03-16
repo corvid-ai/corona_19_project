@@ -85,11 +85,23 @@ def update_date_status():
 
 #################################################
 app.layout = html.Div([
+    html.A([
+            html.Img(
+                src= "https://raw.githubusercontent.com/corvid-ai/corona_19_project/master/dashboard/corvid_logo.jpg",
+                style={
+                    'height' : '80px',
+                    'width' : '80px',
+                    'float' : 'left',
+                    'position' : 'relative',
+                    'padding-top' : -2,
+                    'padding-right' : 3
+                })
+    ], href='https://www.google.com'),
 
 
     # let try to see if we can add a corvid Logo on the page
      
-    html.H2('Corvid Research Labs: Real Time Corona Virus Dashboard', style = {'textAlign': 'left'}),
+    html.H2('Corvid Research Labs: Real Time Corona Virus Dashboard XX', style = {'textAlign': 'left'}),
 
     html.Div(update_date_status(),style = {'font_size': 20, 'fontColor': 'blue'}),
     

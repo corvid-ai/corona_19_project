@@ -111,9 +111,9 @@ map_fig.update_geos(
    
 )
 map_fig.update_layout(
-           title = 'Corona Virus cases reported in Africa So Far<br> Source: <a href="https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases">\HDX</a>',
-           geo_scope="africa",
-           height= 600, width= 900, showlegend = True
+           title = 'Corona Virus cases reported in Africar<br> Source: <a href="https://data.hdx.rwlabs.org/dataset/rowca-ebola-cases">\HDX</a>',
+           geo_scope="world",
+           height= 1000, width= 1000, showlegend = True
           )
 
 ################################################33333
