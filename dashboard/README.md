@@ -1,2 +1,7 @@
 # corona_19_project
-This repo will contain all our analysis on Corona Virus
+
+Current Status of the Dashboard
+
+To Do: 
+
+1. Properly structure out weblayout 
