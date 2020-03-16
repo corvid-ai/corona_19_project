@@ -18,8 +18,18 @@ import pycountry as pc
 import pycountry_convert as pc1
 
 
+######################3
+#Get Data from John Hopkins in Real Time
+url = 'https://raw.githubusercontent.com/corvid-ai/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/03-15-2020.csv'
+#
+try: 
+  df = pd.read_csv(url,  encoding ='latin',  index_col=0) 
+  df.to_csv("C:/Users/ansaj/Desktop/AI Hobbies/Corona_virus_DS/dashboard/data/dataset.csv")
 
-df = pd.read_csv("C:/Users/ansaj/Desktop/AI Hobbies/Corona_virus_DS/dashboard/data/dataset.csv", encoding ='latin')
+except:
+  df = pd.read_csv("C:/Users/ansaj/Desktop/AI Hobbies/Corona_virus_DS/dashboard/data/dataset.csv", encoding ='latin')
+  
+
 ###################################
 #DATA PROCESSING
 standard_names = {'US': 'United States', 'Iran': 'Iran, Islamic Republic of',
