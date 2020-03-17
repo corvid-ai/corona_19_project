@@ -101,7 +101,7 @@ app.layout = html.Div([
 
     # let try to see if we can add a corvid Logo on the page
      
-    html.H2('Corvid Research Labs: Real Time Corona Virus Dashboard', style = {'textAlign': 'left'}),
+    html.H2('Real Time Corona Virus Dashboard', style = {'textAlign': 'left'}),
 
     html.Div(update_date_status(),style = {'font_size': 20, 'fontColor': 'blue'}),
     
